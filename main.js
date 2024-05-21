@@ -8,9 +8,9 @@ let temp = 28
 let res = temp * 5/9 + 32
 console.log(temp + "°F is" + res+"°C" );
 //3
-let hour = 5
-let second = 54
-console.log(hour +  "hour" ,"=", second +  "Seconds");
+let hours = 35;
+let seconds = hours * 3600; 
+console.log(hours + " hours = " + seconds + " Seconds");
 
 //4
 let age = 24
