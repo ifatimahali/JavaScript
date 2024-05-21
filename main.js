@@ -36,3 +36,63 @@ var hobby = "watch the stars in sky night";
 var awesomeMessage = "Hi, my name is " + firstName + ". I love " + interest + ". In my spare time, I like to " + hobby + ".";
 console.log(awesomeMessage);
 
+//////////////////////////////////////////////////////////////////
+
+//2
+var musicians = 0;
+if(musicians <=  0){
+    console.log("not a group");
+ }else if(musicians == 1){
+    console.log("solo");
+ }else if(musicians == 3){
+    console.log("trio");
+ }
+ else if(musicians == 4){
+    console.log("quartet");
+ }
+ else if(musicians > 4){
+    console.log("this is a large group");
+ }
+
+ var musicians = 1;
+ if(musicians <=  0){
+    console.log("not a group");
+ }else if(musicians == 1){
+    console.log("solo");
+ }else if(musicians == 3){
+    console.log("trio");
+ }
+ else if(musicians == 4){
+    console.log("quartet");
+ }
+ else if(musicians > 4){
+    console.log("this is a large group");
+ }
+
+ //3
+
+
+ //4
+ var balance = -325;
+ var checkBalance = true;
+ var isActive = true;
+
+ if(balance ==  isActive){
+    console.log("true");
+ }else if(balance> -325){
+    console.log("empty");
+ }
+ else if(balance == -325){
+    console.log("not empty");
+ }
+
+    
+//5
+let flavor = "vanilla";
+let vessel = "cone";
+let toppings = "sprinkles";
+if ((flavor === "vanilla" || flavor === "chocolate") &&
+    (vessel === "cone" || vessel === "bowl") &&
+    (toppings === "sprinkles" || toppings === "peanuts")) {
+    console.log(`You have ordered a flavor ice cream in a vessel with toppings`);
+}
