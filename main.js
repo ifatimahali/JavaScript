@@ -8,7 +8,7 @@ let temp = 28
 let res = temp * 5/9 + 32
 console.log(temp + "°F is" + res+"°C" );
 //3
-let hours = 35;
+let hours = 5;
 let seconds = hours * 3600; 
 console.log(hours + " hours = " + seconds + " Seconds");
 
